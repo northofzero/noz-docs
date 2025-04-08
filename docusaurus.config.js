@@ -72,6 +72,11 @@ const config = {
           alt: "North of Zero",
         },
         items: [
+          // Position the search bar here
+          {
+            type: "search",
+            position: "left",
+          },
           // {
           //   type: "html",
           //   value:
