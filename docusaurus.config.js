@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "North of Zerp",
+  title: "North of Zero",
   tagline: "Scale Your Tech Startup",
   favicon: "img/favicon.ico",
 
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "northofzero", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,28 +42,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: "./sidebars.js",
+          editUrl: "https://github.com/northofzero/docs/tree/main/",
         },
-        // blog has been removed
         theme: {
           customCss: "./src/css/custom.css",
         },
       }),
-    ],
-  ],
-
-  // Add redirect plugin to redirect from home to docs
-  plugins: [
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            from: "/",
-            to: "/docs/intro",
-          },
-        ],
-      },
     ],
   ],
 
@@ -74,11 +60,6 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "North of Zero",
-        // logo: {
-        //   alt: "North of Zero",
-        //   src: "img/logo.svg",
-        // },
-
         items: [
           {
             type: "docSidebar",
@@ -86,7 +67,6 @@ const config = {
             position: "right",
             label: "Tutorial",
           },
-          // Blog link removed
           {
             href: "https://github.com/northofzero",
             label: "GitHub",
@@ -102,7 +82,7 @@ const config = {
             items: [
               {
                 label: "Build a SaaS",
-                to: "/docs/intro",
+                to: "/intro",
               },
             ],
           },
@@ -122,7 +102,6 @@ const config = {
           {
             title: "Our Work",
             items: [
-              // Blog link removed
               {
                 label: "Never FT",
                 href: "https://neverft.com",
