@@ -44,9 +44,12 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/northofzero/docs/tree/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          // sitemap: {
+          //   changefreq: "weekly",
+          //   priority: 0.5,
+          // },
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -64,7 +67,6 @@ const config = {
         // title: "North of Zero",
         logo: {
           src: "img/logo.svg",
-          width: "200%",
           alt: "North of Zero",
         },
         items: [

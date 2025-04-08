@@ -2,11 +2,16 @@
   padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
   /* margin-right: 0.5rem; */
 }
+
+.menu__list-item {
+  padding-top: 0.75rem;
+}
+
 .menu__list-item-collapsible {
   font-weight: 500;
   /* color: var(--ifm-color-text); */
   font-family: var(--ifm-font-family-base);
-  /* uppercase doesn't seem to work */
+  /* uppercase doesn't seem to work (design wise looks bad) */
   text-transform: uppercase;
 }
 

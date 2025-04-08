@@ -42,6 +42,25 @@ h6 {
   font-weight: 600;
 }
 
+/* Logo size adjustments */
+.navbar__logo {
+  height: auto;
+  width: 100%;
+}
+
+.navbar__logo img {
+  height: auto;
+  width: 6rem;
+  /* transform: scale(1.2); Increase size by 20% */
+}
+
+/* Higher res displays */
+@media (min-resolution: 2dppx) {
+  .navbar__logo img {
+    transform: scale(1.3); /* Larger on high-res screens */
+  }
+}
+
 /* Author tag styles */
 .theme-doc-footer-edit-meta-row {
   display: flex;
@@ -76,5 +95,10 @@ h6 {
 
   .theme-doc-footer-edit-meta-row .theme-edit-this-page {
     margin-right: 0;
+  }
+
+  /* Adjust logo size on mobile */
+  .navbar__logo {
+    width: 140px; /* Slightly smaller on mobile */
   }
 }
