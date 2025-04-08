@@ -45,6 +45,8 @@ const config = {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
           editUrl: "https://github.com/northofzero/docs/tree/main/",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -63,7 +65,7 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "sidebar",
             position: "right",
             label: "Tutorial",
           },

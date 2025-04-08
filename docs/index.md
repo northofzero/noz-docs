@@ -1,6 +1,11 @@
 ---
 sidebar_position: 1
 sidebar_label: "North of Zero"
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # index.md

@@ -3,6 +3,8 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import url(./variables.css);
+@import url(./sidebar.css);
 
 /* Local Fonts */
 @font-face {
@@ -23,54 +25,6 @@
   font-display: swap;
 }
 
-/* You can override the default Infima variables here. */
-:root {
-  /* Light theme colors */
-  --ifm-color-primary: #7aa802;
-  --ifm-color-primary-dark: #7aa802;
-  --ifm-color-primary-darker: #6d9602;
-  --ifm-color-primary-darkest: #5a7b02;
-  --ifm-color-primary-light: #9acd1c;
-  --ifm-color-primary-lighter: #a3d62c;
-  --ifm-color-primary-lightest: #b5e04d;
-
-  --ifm-color-secondary: #232325;
-  --ifm-background-color: #ffffff;
-  --ifm-color-text: #151517;
-  --ifm-color-black: #000000;
-  --ifm-color-white: #ffffff;
-  --ifm-color-gray: #676767;
-
-  /* Font variables */
-  --ifm-font-family-base: "ProductSans", system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: "GoshaSans", system-ui, -apple-system, sans-serif;
-  --ifm-font-size-base: 16px;
-  --ifm-line-height-base: 1.5;
-
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-
-/* Dark theme colors */
-[data-theme="dark"] {
-  --ifm-color-primary: #c2f703;
-  --ifm-color-primary-dark: #a8d903;
-  --ifm-color-primary-darker: #9bcc03;
-  --ifm-color-primary-darkest: #7aa802;
-  --ifm-color-primary-light: #c8f71c;
-  --ifm-color-primary-lighter: #cdf735;
-  --ifm-color-primary-lightest: #d8f85e;
-
-  --ifm-color-secondary: #1a1a1c;
-  --ifm-background-color: #151517;
-  --ifm-color-text: #e0e0e0;
-  --ifm-color-black: #000000;
-  --ifm-color-white: #ffffff;
-  --ifm-color-gray: #8a8a8a;
-
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
 /* Apply fonts to specific elements */
 html {
   font-family: var(--ifm-font-family-base);
@@ -88,124 +42,39 @@ h6 {
   font-weight: 600;
 }
 
-/* Sidebar styling */
-.theme-doc-sidebar-container {
-  max-width: 14rem;
-  border-right: 1px solid var(--ifm-color-secondary);
-  background-color: var(--ifm-background-color);
+/* Author tag styles */
+.theme-doc-footer-edit-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
-/**
- * Sidebar menu items 
- * Eg: Tutorial, Guides, API, etc.
-*/
-
-.menu__link {
-  color: var(--ifm-color-text);
-  font-size: 0.9rem;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  /* margin: 0.2rem 0; */
-  transition: all 0.2s ease;
-  font-family: var(--ifm-font-family-base);
+.theme-doc-footer-edit-meta-row .theme-edit-this-page {
+  margin-right: auto;
 }
 
-.menu__link:hover {
-  background-color: var(--ifm-color-secondary);
+.theme-doc-footer-edit-meta-row .last-updated {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+}
+
+.theme-doc-footer-edit-meta-row .last-updated .author {
+  font-weight: 600;
   color: var(--ifm-color-primary);
 }
 
-.menu__link--active {
-  background-color: var(--ifm-color-secondary);
-  color: var(--ifm-color-primary);
-  font-weight: 500;
-}
-
-.menu__list-item-collapsible {
-  font-weight: 500;
-  color: var(--ifm-color-text);
-  font-family: var(--ifm-font-family-base);
-  /* uppercase doesn't seem to work */
-  /* text-transform: uppercase; */
-}
-
-.menu__list-item-collapsible:hover {
-  background-color: var(--ifm-color-secondary);
-  color: var(--ifm-color-primary);
-}
-
-.menu__caret {
-  color: var(--ifm-color-text);
-}
-
-.menu__list-item-collapsible .menu__list {
-  padding-left: 0.5rem;
-}
-
-.menu__list-item-collapsible--active {
-  background-color: var(--ifm-color-secondary);
-  color: var(--ifm-color-primary);
-}
-
-/* Navbar styling */
-.navbar {
-  background-color: var(--ifm-background-color);
-  background: transparent;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--ifm-color-secondary);
-  font-family: var(--ifm-font-family-base);
-}
-
-.navbar__title {
-  color: var(--ifm-color-text);
-  font-family: var(--ifm-heading-font-family);
-}
-
-.navbar__item {
-  color: var(--ifm-color-text);
-  font-family: var(--ifm-font-family-base);
-}
-
-.navbar__item:hover {
-  color: var(--ifm-color-primary);
-}
-
-/* Search bar */
-.navbar__search {
-  margin: 0.5rem 1rem;
-}
-
-.navbar__search-input {
-  border-radius: 4px;
-  border: 1px solid var(--ifm-color-secondary);
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-color-text);
-  padding: 0.5rem 1rem;
-  font-family: var(--ifm-font-family-base);
-}
-
-/* Mobile sidebar */
+/* Mobile styles */
 @media (max-width: 996px) {
-  .theme-doc-sidebar-container {
-    border-right: none;
+  .theme-doc-footer-edit-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
-}
 
-/* Sidebar Divider */
-.sidebar-divider {
-  height: 1px;
-  background-color: var(--ifm-color-secondary);
-  margin: 0.5rem 1rem;
-  opacity: 0.2;
-}
-
-/* Sidebar Text Block */
-.sidebar-text {
-  color: var(--ifm-color-primary);
-  font-size: 1.25rem;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem 0;
-  opacity: 0.7;
-  /* border-left: 2px solid var(--ifm-color-primary); */
-  background-color: rgba(var(--ifm-color-primary-rgb), 0.05);
+  .theme-doc-footer-edit-meta-row .theme-edit-this-page {
+    margin-right: 0;
+  }
 }
