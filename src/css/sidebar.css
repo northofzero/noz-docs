@@ -39,7 +39,6 @@
 
 /* Navbar styling */
 .navbar {
-  background-color: var(--ifm-color-primary);
   background: transparent;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -47,6 +46,7 @@
   font-family: var(--ifm-font-family-base);
 
   @media (max-width: 996px) {
+    background-color: var(--ifm-background-color);
     -webkit-backdrop-filter: unset;
     backdrop-filter: unset;
   }

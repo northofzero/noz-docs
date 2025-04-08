@@ -1,11 +1,12 @@
 ---
 sidebar_position: 1
 sidebar_label: "North of Zero"
-author:
-  name: North of Zero
-  title: North of Zero
-  url: https://northofzero.dev
-  image_url: https://northofzero.dev/logo.png
+authors:
+  name: Mik
+  title: Design @ NoZ
+  url: https://mik.sh
+  image_url: https://github.com/JoelMarcey.png
+  email: mik@northofzero.dev
 ---
 
 # index.md

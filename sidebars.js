@@ -29,7 +29,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      id: "intro",
+      id: "index",
       label: "North of Zero",
     },
     {
