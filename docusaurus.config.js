@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "northofzero", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  projectName: "noz-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -59,10 +59,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/social-card.jpg",
       navbar: {
-        title: "North of Zero",
+        // title: "North of Zero",
+        logo: {
+          src: "img/logo.svg",
+          width: "200%",
+          alt: "North of Zero",
+        },
         items: [
+          // {
+          //   type: "html",
+          //   value:
+          //     '<img src="/img/logo.svg" width="100%" alt="North of Zero" />',
+          //   position: "left",
+          // },
           {
             type: "docSidebar",
             sidebarId: "sidebar",

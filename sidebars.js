@@ -17,22 +17,21 @@
 const sidebars = {
   sidebar: [
     // Manual items at the top
-    {
-      type: "html",
-      value: '<img src="/img/logo.png" alt="North of Zero" />',
-      defaultStyle: true,
-    },
     // {
     //   type: "html",
-    //   value: '<p class="sidebar-text">North of Zero</p>',
+    //   value: '<p class="sidebar-text">Docs of Zero</p>',
     //   defaultStyle: true,
     // },
+    {
+      type: "html",
+      value: '<div class="sidebar-divider"></div>',
+      defaultStyle: true,
+    },
     {
       type: "doc",
       id: "intro",
       label: "North of Zero",
     },
-
     {
       type: "category",
       label: "Getting Started",
