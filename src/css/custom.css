@@ -62,6 +62,29 @@ h6 {
   }
 }
 
+/* Search bar styles */
+.navbar__search {
+  margin-left: 1rem;
+}
+
+.navbar__search-input {
+  width: 12rem;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--ifm-font-family-base);
+  border-radius: 4px;
+  background-color: var(--ifm-navbar-search-input-background-color);
+  color: var(--ifm-navbar-search-input-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.2s ease;
+}
+
+.navbar__search-input:focus {
+  width: 16rem;
+  border-color: var(--ifm-color-primary);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(var(--ifm-color-primary-rgb), 0.25);
+}
+
 /* Author tag styles */
 .theme-doc-footer-edit-meta-row {
   display: flex;
@@ -101,5 +124,20 @@ h6 {
   /* Adjust logo size on mobile */
   .navbar__logo {
     width: 140px; /* Slightly smaller on mobile */
+  }
+
+  /* Mobile search bar */
+  .navbar__search {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .navbar__search-input {
+    width: 100%;
+  }
+
+  .navbar__search-input:focus {
+    width: 100%;
   }
 }

@@ -72,11 +72,11 @@ const config = {
       // Replace with your project's social card
       image: "img/social-card.jpg",
       navbar: {
-        // title: "North of Zero",
-        logo: {
-          src: "img/logo.svg",
-          alt: "North of Zero",
-        },
+        title: "North of Zero",
+        // logo: {
+        //   src: "img/logo.svg",
+        //   alt: "North of Zero",
+        // },
         items: [
           // Position the search bar here
           {

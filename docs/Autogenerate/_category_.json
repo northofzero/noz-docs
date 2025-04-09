@@ -1,0 +1,9 @@
+{
+  "label": "Capabilities",
+  "position": 2,
+  "collapsible": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Browse capabilities and features"
+  }
+}
