@@ -90,12 +90,6 @@ const config = {
           //   position: "left",
           // },
           {
-            type: "docSidebar",
-            sidebarId: "sidebar",
-            position: "right",
-            label: "Tutorial",
-          },
-          {
             href: "https://github.com/northofzero",
             label: "GitHub",
             position: "right",
@@ -110,7 +104,7 @@ const config = {
             items: [
               {
                 label: "Build a SaaS",
-                to: "/intro",
+                to: "/index",
               },
             ],
           },
