@@ -2,6 +2,7 @@
   padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
   /* margin-right: 0.5rem; */
   font-size: 0.9rem;
+  background-color: #121213;
 }
 
 .menu__list-item {
@@ -12,7 +13,9 @@
   font-weight: 500;
   font-family: var(--ifm-font-family-base);
   /* uppercase doesn't seem to work (design wise looks bad) */
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
+  /* border-left: 2px solid var(--ifm-color-primary); */
+  /* color: white !important; */
 }
 
 .menu__list-item-collapsible:hover {
@@ -21,16 +24,21 @@
 }
 
 .menu__caret {
-  filter: pink !important;
-  scale: 0.8;
+  scale: 0.6;
 }
+
+.menu__link--sublist-caret::after {
+  scale: 0.6;
+}
+/* menu__link menu__link--sublist menu__link--active" */
 
 .menu__list-item-collapsible .menu__list {
   padding-left: 0.5rem;
 }
 
 .menu__link--sublist {
-  /* border-left: 5px solid var(--ifm-color-primary-lightest); */
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .menu__list-item-collapsible--active {
@@ -38,19 +46,24 @@
   color: var(--ifm-color-primary);
 }
 
+.menu__link--active {
+  /* color: var(--ifm-color-primary) !important; */
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1);
+}
 /* Navbar styling */
 .navbar {
-  background: transparent;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* background: transparent; */
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
   border-bottom: 1px solid var(--ifm-color-secondary);
   font-family: var(--ifm-font-family-base);
+  background-color: #121213;
 
-  @media (max-width: 996px) {
+  /* @media (max-width: 996px) {
     background-color: var(--ifm-background-color);
     -webkit-backdrop-filter: unset;
     backdrop-filter: unset;
-  }
+  } */
 }
 
 .navbar__title {
@@ -96,8 +109,9 @@
 .sidebar-divider {
   height: 1px;
   background-color: var(--ifm-color-primary);
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   opacity: 0.1;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
 }
 
 /* Sidebar Text Block */
@@ -110,3 +124,29 @@
   /* border-left: 2px solid var(--ifm-color-primary); */
   background-color: rgba(var(--ifm-color-primary-rgb), 0.05);
 }
+
+/* Sidebar regular links */
+.menu__link {
+  color: gray;
+}
+
+/* Sidebar active link */
+.menu__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* Sidebar link hover */
+.menu__link:hover {
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.05);
+}
+
+/* Individual section headers with specific classes */
+.modifier-header > .menu__list-item-collapsible > .menu__link {
+  color: white !important;
+}
+
+/* we want only the left-side thing to be visible */
+/* .modifier-header .menu__link {
+  border-radius: 0;
+  border-left: 2px solid var(--ifm-color-primary);
+} */
