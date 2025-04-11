@@ -10,7 +10,7 @@
 }
 
 .menu__list-item-collapsible {
-  font-weight: 500;
+  font-weight: 200;
   font-family: var(--ifm-font-family-base);
   /* uppercase doesn't seem to work (design wise looks bad) */
   text-transform: uppercase;
