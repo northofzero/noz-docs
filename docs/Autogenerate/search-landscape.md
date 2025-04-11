@@ -2,6 +2,11 @@
 sidebar_position: 6
 title: Automated Long-Tail Keyword Discovery
 description: Navigating the Semantic Search Landscape
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # Search Landscape: Navigating the Semantic Search Landscape

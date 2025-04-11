@@ -2,6 +2,11 @@
 sidebar_position: 10
 title: Navan for Remote Teams
 description: Transforming Team Travel & Meetups
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 ## **Why Remote Teams Need Intentional In-Person Connection**

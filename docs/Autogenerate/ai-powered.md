@@ -2,6 +2,11 @@
 sidebar_position: 4
 title: AI-Powered Growth
 description: The Future of Growth
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # AI-Powered Growth: The Future of Growth

@@ -2,6 +2,11 @@
 sidebar_position: 8
 title: Conversational AI with ElevenLabs
 description: The Future of Search
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 ## **The Evolution of Customer Service Automation**

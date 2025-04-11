@@ -2,6 +2,11 @@
 sidebar_position: 5
 title: Programmatic SEO
 description: A Founder's Guide to Scaling Landing Pages
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # Programmatic SEO: A Founder's Guide to Scaling Landing Pages

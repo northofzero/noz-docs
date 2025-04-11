@@ -2,6 +2,11 @@
 sidebar_position: 7
 title: Leveraging Q&A Platforms for SEO
 description: A Strategic Approach to Long-Tail Content Generation
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # Leveraging Q&A Platforms for SEO: A Strategic Approach to Long-Tail Content Generation

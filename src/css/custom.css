@@ -101,6 +101,10 @@ h6 {
   border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
+.theme-last-updated {
+  font-style: normal;
+}
+
 .theme-doc-footer-edit-meta-row .theme-edit-this-page {
   margin-right: auto;
 }
@@ -113,6 +117,10 @@ h6 {
 .theme-doc-footer-edit-meta-row .last-updated .author {
   font-weight: 600;
   color: var(--ifm-color-primary);
+}
+
+.pagination-nav__label {
+  font-weight: 200 !important;
 }
 
 /* Mobile styles */

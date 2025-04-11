@@ -2,6 +2,11 @@
 sidebar_position: 2
 title: The AAARRR Framework
 description: A Founder's Guide to Sustainable Growth
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # The AAARRR Framework: A Founder's Guide to Sustainable Growth

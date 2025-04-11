@@ -2,6 +2,11 @@
 sidebar_position: 3
 title: The First 100
 description: Growth Strategies from YC and Top VCs
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 # The First 100 Customers: Growth Strategies from YC and Top VCs

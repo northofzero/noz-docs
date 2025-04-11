@@ -2,6 +2,11 @@
 sidebar_position: 9
 title: The Async Advantage
 description: Less Meetings, Less Email, More Results
+author:
+  name: North of Zero
+  title: North of Zero
+  url: https://northofzero.dev
+  image_url: https://northofzero.dev/logo.png
 ---
 
 ## **The Solution: Channel-Based Async Communication**
