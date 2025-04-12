@@ -34,7 +34,7 @@ const sidebars = {
         },
         {
           type: "link",
-          href: "/Travel%20Cash%20Back",
+          href: "/Travel-Cash-Back",
           label: "$500 Travel Cash Back ✈️",
         },
         {
