@@ -1,0 +1,12 @@
+{
+  "label": "Founder Tools",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Founder Tools",
+    "description": "Essential tools and resources for startup founders"
+  },
+  "className": "founder-tools-category",
+  "collapsible": true,
+  "collapsed": false
+}
