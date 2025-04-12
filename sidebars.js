@@ -34,6 +34,11 @@ const sidebars = {
         },
         {
           type: "link",
+          href: "/Travel%20Cash%20Back",
+          label: "$500 Travel Cash Back ✈️",
+        },
+        {
+          type: "link",
           href: "https://www.northofzero.dev/offer",
           label: "45min Consultation",
         },
