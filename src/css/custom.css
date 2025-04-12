@@ -123,6 +123,10 @@ h6 {
   font-weight: 200 !important;
 }
 
+.theme-back-to-top-button {
+  display: none;
+}
+
 /* Mobile styles */
 @media (max-width: 996px) {
   .theme-doc-footer-edit-meta-row {
