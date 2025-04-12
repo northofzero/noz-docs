@@ -30,12 +30,12 @@ const sidebars = {
         {
           type: "link",
           href: "https://perks.northofzero.dev/",
-          label: "Perks of using a playbook",
+          label: "Perks",
         },
         {
           type: "link",
-          href: "https://northofzero.dev",
-          label: "Website",
+          href: "https://www.northofzero.dev/offer",
+          label: "45min Consultation",
         },
       ],
     },
