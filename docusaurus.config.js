@@ -48,18 +48,13 @@ const config = {
 
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         googleAnalytics: {
           trackingID: "G-0000000000",
           anonymizeIP: false,
         },
-      },
-    ],
-    [
-      "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
