@@ -51,9 +51,8 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        googleAnalytics: {
-          trackingID: "AW-16874342204",
-          anonymizeIP: false,
+        googleTagManager: {
+          containerId: "GTM-KLF6L9ZD",
         },
         docs: {
           routeBasePath: "/",
