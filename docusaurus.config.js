@@ -48,6 +48,15 @@ const config = {
 
   presets: [
     [
+      "@docusaurus/preset-classic",
+      {
+        googleAnalytics: {
+          trackingID: "",
+          anonymizeIP: false,
+        },
+      },
+    ],
+    [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
