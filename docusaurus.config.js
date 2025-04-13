@@ -51,7 +51,7 @@ const config = {
       "@docusaurus/preset-classic",
       {
         googleAnalytics: {
-          trackingID: "",
+          trackingID: "G-0000000000",
           anonymizeIP: false,
         },
       },
