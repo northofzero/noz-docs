@@ -15,7 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.northofzero.com",
+  url: "https://docs.northofzero.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -138,7 +138,7 @@ const config = {
           },
 
           // {
-          //   href: "https://northofzero.com#contact",
+          //   href: "https://northofzero.dev#contact",
           //   label: "Enquire",
           //   position: "right",
           // },
