@@ -7,6 +7,6 @@
     "description": "Essential tools and resources for startup founders"
   },
   "className": "founder-tools-category",
-  "collapsible": true,
+  "collapsible": false,
   "collapsed": false
 }

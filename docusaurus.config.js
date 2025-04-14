@@ -107,7 +107,7 @@ const config = {
           {
             type: "html",
             value:
-              '<a href="https://calendly.com/northofzero/noz-startup-session?month=2025-04" style="color: gray; font-weight: 200;">Book a Call</a>',
+              '<a href="https://calendly.com/northofzero/noz-startup-session" style="color: gray; font-weight: 200;">Book a Call</a>',
             position: "right",
           },
           {
