@@ -13,7 +13,7 @@
   font-weight: 200;
   font-family: var(--ifm-font-family-base);
   /* uppercase doesn't seem to work (design wise looks bad) */
-  text-transform: uppercase;
+  text-transform: none;
   /* border-left: 2px solid var(--ifm-color-primary); */
   /* color: white !important; */
 }
