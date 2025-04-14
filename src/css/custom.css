@@ -43,6 +43,16 @@ h6 {
   font-weight: 600;
 }
 
+p,
+article ul {
+  opacity: 0.8;
+}
+
+strong {
+  opacity: 1 !important;
+  color: white;
+}
+
 .container {
   padding-left: 10%;
 }
@@ -137,6 +147,11 @@ h6 {
 
 .table-of-contents__link--active {
   color: var(--ifm-color-primary);
+}
+
+.card h2 {
+  font-weight: 200;
+  font-family: var(--ifm-font-family-base);
 }
 
 /* Mobile styles */
