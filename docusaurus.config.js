@@ -80,6 +80,10 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 2,
+      },
       // Replace with your project's social card
       image: "img/social-card.jpg",
       navbar: {

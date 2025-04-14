@@ -38,7 +38,7 @@
 
 .menu__link--sublist {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .menu__list-item-collapsible--active {
@@ -47,8 +47,9 @@
 }
 
 .menu__link--active {
-  /* color: var(--ifm-color-primary) !important; */
-  background-color: rgba(var(--ifm-color-primary-rgb), 0.1);
+  color: var(--ifm-color-primary) !important;
+  text-transform: none;
+  /* background-color: rgba(var(--ifm-color-primary-rgb), 0.1); */
 }
 /* Navbar styling */
 .navbar {

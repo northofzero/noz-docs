@@ -127,6 +127,18 @@ h6 {
   display: none;
 }
 
+.table-of-contents__link {
+  color: gray;
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+}
+
 /* Mobile styles */
 @media (max-width: 996px) {
   .theme-doc-footer-edit-meta-row {
