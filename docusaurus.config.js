@@ -84,8 +84,7 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 2,
       },
-      // Replace with your project's social card
-      image: "img/social-card.jpg",
+      image: "img/social-preview.png",
       navbar: {
         // title: "North of Zero",
         logo: {
