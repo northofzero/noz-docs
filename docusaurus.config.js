@@ -126,13 +126,13 @@ const config = {
           {
             type: "html",
             value:
-              '<a href="https://northofzero.dev#contact" target="_blank" style="color: gray; font-weight: 200;">Enquire</a>',
+              '<a href="https://northofzero.dev#contact" target="_blank" style="padding-right: 26px; color: gray; font-weight: 200;">Enquire</a>',
             position: "right",
           },
           {
             type: "html",
             value:
-              '<a href="https://northofzero.dev" target="_blank" style="padding-left: 26px; padding-top: 10px; color: gray; font-weight: 200;"><img src="/img/globe.svg" style="padding-top:5px;" width="20px" alt="North of Zero" /></a>',
+              '<a href="https://northofzero.dev" target="_blank" style="padding-top: 10px; color: gray; font-weight: 200;"><img src="/img/globe.svg" style="padding-top:5px;" width="20px" alt="North of Zero" /></a>',
             position: "right",
           },
           {

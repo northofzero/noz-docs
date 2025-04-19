@@ -1,5 +1,5 @@
 ---
-title: "Disclaimers"
+title: "Founder Playbooks + Perks"
 sidebar_position: 200
 ---
 
