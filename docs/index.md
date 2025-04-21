@@ -11,7 +11,7 @@ Sure, AI hallucinates - but so do economists, world leaders, startup gurus, inve
 
 These docs were prompted by humans, shaped with AI, and carefully combed through by a real-life human brain (yes, still caffeinated).
 
-**A Friendly Reminder**
+## A Friendly Reminder
 
 Nothing in these documents should be taken as business, legal, or financial advice. Every startup is a different beast, with its own quirks, risks, and caffeine tolerance.
 
@@ -21,13 +21,13 @@ We strongly encourage you to explore further, run your own tests, and dive headf
 
 Build wisely, test often, and never outsource your critical thinking.
 
-**\*Free Startup Credits**
+## Free Startup Credits
 
 We're stoked to offer access startup credits to help you on your journey. These credits are provided by third-party partners and platforms — we’re just the connector, not the provider.
 
 We don’t control the terms, availability, or approval of any credits. So if you have questions, issues, or curious energy about your credit application, please reach out directly to the credit provider. They’ve got the answers, please don’t open support tickets or message us expecting someone on standby with a headset. We don’t have a call center. The AI assistant in the bottom right won’t help with this either (trust us, we asked).
 
-**Let’s Collaborate**
+## Let’s Collaborate
 
 If you're serious about building cool stuff and want to chat ideas, strategy, or your next big thing — book a call. That’s what we _are_ here for.
 
