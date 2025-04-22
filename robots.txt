@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+
+Sitemap: https://docs.northofzero.dev/sitemap.xml
+LLMS: https://docs.northofzero.dev/llms.txt
+LLMS-full: https://docs.northofzero.dev/llms-full.txt
