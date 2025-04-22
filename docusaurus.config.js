@@ -61,13 +61,15 @@ const config = {
           sidebarPath: "./sidebars.js",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
-          // sitemap: {
-          //   changefreq: "weekly",
-          //   priority: 0.5,
-          // },
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          filename: "sitemap.xml",
+          // Add any additional options here
         },
       }),
     ],

@@ -39,7 +39,7 @@ const sidebars = {
         },
         {
           type: "link",
-          href: "https://www.northofzero.dev/offer",
+          href: "https://calendly.com/northofzero/noz-startup-session",
           label: "45min Consultation",
         },
       ],
