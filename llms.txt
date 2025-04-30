@@ -3,10 +3,12 @@
 ## Content
 
 - [Building World-Class Teams](Founder Tools/Building World-Class Teams): Lessons from Sports for Startup Success
+- [How Whop's Content Rewards System Is Changing Social Media Marketing](Founder Tools/How Whop's Content Rewards System Is Changing Soci 1e10607059e780219d50fbc456a4f990): How Whop's Content Rewards System Is Changing Social Media Marketing
 - [Programmatic SEO](Founder Tools/Programmatic SEO): A Founder's Guide to Scaling Landing Pages
 - [The AAARRR Framework](Founder Tools/The AAARRR Framework): A Founder's Guide to Sustainable Growth
 - [The Async Advantage](Founder Tools/The Async Advantage): Less Meetings, Less Email, More Results
 - [The First 100 Customers](Founder Tools/The First 100): Growth Strategies from YC and Top VCs
 - [The Founder's Grit Playbook](Founder Tools/The Founder's Grit Playbook): Building Resilience for Startup Success
+- [When to Go Remote and When to Gather](Founder Tools/When to Go Remote and When to Gather 1e10607059e7800d8811c465d98c220e): The COVID-19 pandemic fundamentally transformed how we work, accelerating remote work adoption and breaking through long-standing cultural and technological barriers.
 - [Founder Playbooks + Perks](index): Fueled by espresso, late-night thoughts, and a suspiciously confident language model.
 - [$500 Travel Cash Back ✈️](Travel-Cash-Back): Less Meetings, Less Email, More Results
