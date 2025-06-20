@@ -30,7 +30,8 @@ const sidebars = {
         {
           type: "link",
           href: "https://perks.northofzero.dev/",
-          label: "Perks",
+          label: "Perks 🎁",
+          // className: "link-no-icon",
         },
         {
           type: "link",
@@ -40,7 +41,8 @@ const sidebars = {
         {
           type: "link",
           href: "https://calendly.com/northofzero/noz-startup-session",
-          label: "45min Consultation",
+          label: "45min Consultation 🖥️",
+          // className: "link-no-icon",
         },
       ],
     },
